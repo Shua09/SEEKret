@@ -1,0 +1,125 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+
+    background-color: #E7E7E7;
+}
+
+/* COUNSELING SERVICES */
+#CShero{
+    font-family: Yrsa;
+}
+#CSheader{
+    font-size: 50px;
+    font-weight: bold;
+}
+.cards{
+    margin-top: 0.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.cards .card{
+    margin: auto;
+    padding: 2%;
+
+    width: 340px;
+    height: 80px;
+    background-color: #BDCDD6;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: #07031C;
+    box-shadow: 0px 0px 15px 3px rgba(185, 185, 185, 0.75);
+}
+.card-title{
+    font-weight: bold;
+    font-size: 2.3em;
+}
+.card .card-body .card-img-top{
+    height: 90px;
+    width: auto;
+}
+    /* #JPimage{
+        height: px;
+        width: 85px;
+    }
+    #PIimage{
+        height: 75px;
+        width: auto;
+    } */
+.card-body{
+    border-radius: 20px;
+    border-width: 3px;
+    background-color: #BDCDD6;
+    color: #07031C;
+}
+
+/* SCHEDULE */
+#csched{
+    font-family: Yrsa;
+}
+#Sheader{
+    font-size: 45px;
+    font-weight: bold;
+}
+#btn-schedulenow{
+    width: 275px;
+    height: 55px;
+    padding: 2%;
+
+    border-radius: 30px;
+    border-width: 3px;
+    font-weight: medium;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+    #btn-schedulenow:hover{
+        background-color: #FFFFFF;
+        color: #07031C;
+        box-shadow: 0px 0px 8px 2px #000000bf;
+        transform: scale(1.02);
+    }
+#Sright{
+    /* float: inline-end; */
+    /* align-self: flex-end; */
+    align-content: center;
+    float: right;
+}
+#counseling{
+    height: 80px;
+    width: auto;
+    align-self: center;
+}
+
+/* SEMI-ELLIPSE */
+#semi-ellipse{
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: #BDCDD6;
+    display: flex;
+    align-items: flex-end;
+
+    height: 7%;
+    width: 100%;
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+#osa-text{
+    font-weight: bold;
+    /* font-size: large; */
+    color:#07031C;
+    line-height: 20px;
+    align-items: center;
+}
+#osa-link{
+    color: #0035a8;
+    /* line-height: 10px; */
+}
+/* #osa-text #osa-link{
+    line-height: 4px;
+} */

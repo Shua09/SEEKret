@@ -1,0 +1,145 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+}
+
+/* LEFT CONTAINER */
+col, #LeftContainer{
+    background-color: beige;
+    height: 100vh;
+    text-align: center;
+
+    margin: auto;
+    /* padding: 5%; */
+
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+/* IMAGE */
+#slogan{
+    /* height: 90px;  */
+    /* width: auto; */
+}
+
+/* RIGHT CONTAINER */
+col, #RightContainer{
+    background-color: black;
+    height: 100vh;
+    text-align: center;
+    /* padding: 5%; */
+
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+/* REGISTRATION FORM */
+#reg-form{
+    /* text-align: center; */
+    background-color: #FFEBB4;
+    font-family: 'Segoe UI';
+
+    height: fit-content;
+    width: fit-content;
+
+    /* padding-left: 15%;
+    padding-right: 10%;  */
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+/* LOGO REGISTER */
+.logo-reg{
+    /* align-items: center; */
+    padding-top: 0%;
+}
+
+/* TEXTBOXES */
+input{
+    height: 35px;
+    background-color: #E7E7E7;
+    border-radius: 2px;
+    border-color: #474747;
+    font-style: italic;
+    /* float: left; */
+    padding-left: 2%;
+
+}
+#studentnum, #username,
+#firstname, #lastname,
+#email, #password{
+    margin: auto;
+    width: 330px;
+}
+/* LOGIN BUTTON */
+.btnright{
+    float: right;
+    background-color: #FBFFB1;
+    color: #242424;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+}
+/* LOGIN LINK */
+#login-text{
+    float: left;
+    color:#606060;
+    /* font-style: italic;  */
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-left: 65px;
+
+}
+#login{
+    float: right;
+    color:#155f94;
+    /* font-style: italic;  */
+    font-size: 0.9em;
+    font-weight: 800;
+    margin-right: 80px;
+}
+/* REGISTER BUTTON */
+#btnregister{
+    background-color: #023E73;
+    color: #474747;
+    font-weight: 700;
+    font-size: larger;
+    border-radius: 5px;
+    height: 40px;
+}
+/* LINE DIVIDER */
+hr{
+    height: 3px;
+    background-color: #242424;
+    border: none;
+}
+
+#note{
+    background-color: #93BFCF;
+    color: #00384c;
+    font-family: 'Segoe UI';
+    font-style: oblique;
+    font-weight: 400;
+
+    height: 45px;
+    width: fit-content;
+
+    margin-top: 3%;
+
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}

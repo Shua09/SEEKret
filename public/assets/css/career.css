@@ -1,0 +1,70 @@
+    html,
+    body{
+        height: 100%;
+        margin: 0;
+        overflow-x: hidden;
+        /* overflow-y: hidden; */
+
+        background-color: #E7E7E7;
+    }
+    
+/* CAREER SERVICES */
+    #CShero{
+        font-family: Yrsa;
+    }
+    #CSheader{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .cards{
+        margin-top: 0.5%; 
+        margin-left: 2%; 
+        margin-right: 2%; 
+        margin-bottom: 2%; 
+    }
+    .cards .card{
+        margin-left: 7%;
+        margin-right: 7%;
+        padding: 2%;
+
+        width: 340px;
+        height: 350px;
+        background-color: #BDCDD6;
+        border-radius: 20px;
+        border-width: 3px;
+        border-color: #07031C;
+        box-shadow: 0px 0px 15px 3px rgba(185, 185, 185, 0.75);
+    }
+    .card-title{
+        font-weight: bold;
+        font-size: 2.3em;
+    }
+    .card .card-body .card-img-top{
+        height: 90px;
+        width: auto;
+    }
+        /* #JPimage{
+            height: 75px;
+            width: 85px;
+        }
+        #PIimage{
+            height: 75px;
+            width: auto;
+        } */
+    .card-body{
+        border-radius: 20px;
+        border-width: 3px;
+        background-color: #BDCDD6;
+        color: #07031C;
+    }
+    .card .card-body .btn{
+        width: 230px;
+        height: 50px;
+        padding: 0;
+
+        border-radius: 30px; 
+        border-width: 3px;
+        font-weight: medium; 
+        font-size: 1.7em;
+        font-weight: bold;
+    }
